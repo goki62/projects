@@ -1,0 +1,14 @@
+html {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #333;
+  color: whitesmoke;
+}
+a {
+  color: green;
+}
+a:visited {
+  color: yellow;
+}
