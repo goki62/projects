@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div class="container">
+  <head>
+    <title>tip calculator</title>
+  </head>
+  <body>
+    <h1>Tip calculator</h1>
+    <h2>
+      bill amount (in dollars)
+      <input
+        type="number"
+        class="form-control1"
+        
+        min="0"
+        placeholder="ie. 25.99"
+      />
+    </h2>
+    <h2>
+      tip amount (as in %)
+      <input
+        type="number"
+        class="form-control2"
+        
+        min="0"
+        max="100"
+        placeholder="ie. 9"
+      />
+    </h2>
+    <h2>
+      <button
+        class="btn-primary"
+        
+        onclick="calculate()"
+      >
+        calculate tip and total bill
+      </button>
+    </h2>
+    <h2></h2>
+    <h2></h2>
+</div>
+ <script type="text/javascript" src="tipCalculator.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=League+Gothic&family=Open+Sans:wght@300&family=Oswald:wght@300&display=swap");
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+      .container{
+        max-width: 800px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 2px solid steelblue;
+  padding: 30px;
+  border-radius: 20px;
+  padding-inline:100px;
+  padding-right: 40px;
+      }
+      .btn-primary{
+        border-radius: 10px;
+        height: 40px;
+        width: 350px;
+        background-color: rgb(8, 98, 231);
+          color: white;
+          font-size: 20px;
+          outline-style: dashed;
+      }
+      .form-control1{
+        
+          padding: 10px;
+          font-size: 20px;
+          color: rgb(75, 19, 87);
+          border: 1px solid rgb(0, 0, 255);
+          position: relative;}
+        
+      .form-control2{
+        
+          padding: 10px;
+          font-size: 20px;
+          color: rgb(75, 19, 87);
+          border: 1px solid rgb(0, 0, 255);
+          position: relative;
+        
+      }
+      
+    </style>
+  </body>
+</html>
